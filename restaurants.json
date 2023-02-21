@@ -1,0 +1,193 @@
+[
+    {
+        "id": 2,
+        "name": "Sushi Bay",
+        "cuisine": "Japanese",
+        "_geo": {
+            "lat": 34.0522,
+            "lng": -118.2437
+        },
+        "rating": 4.8
+    },
+    {
+        "id": 3,
+        "name": "Pasta Palace",
+        "cuisine": "Italian",
+        "_geo": {
+            "lat": 41.8781,
+            "lng": -87.6298
+        },
+        "rating": 4.3,
+        "_geoDistance": 11111
+    },
+    {
+        "id": 4,
+        "name": "Spice Garden",
+        "cuisine": "Indian",
+        "_geo": {
+            "lat": 51.5074,
+            "lng": -0.1278
+        },
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Burger Joint",
+        "cuisine": "American",
+        "_geo": {
+            "lat": 40.7589,
+            "lng": -73.9851
+        },
+        "rating": 4.2
+    },
+    {
+        "id": 6,
+        "name": "Le Bistro",
+        "cuisine": "French",
+        "_geo": {
+            "lat": 48.8566,
+            "lng": 2.3522
+        },
+        "rating": 3
+    },
+    {
+        "id": 7,
+        "name": "Kimchi House",
+        "cuisine": "Korean",
+        "_geo": {
+            "lat": 37.5665,
+            "lng": 126.9780
+        },
+        "rating": 4.6
+    },
+    {
+        "id": 8,
+        "name": "The Green Bowl",
+        "cuisine": "Indian",
+        "_geo": {
+            "lat": 51.5074,
+            "lng": -0.1278
+        },
+        "rating": 4.4
+    },
+    {
+        "id": 9,
+        "name": "Taco Town",
+        "cuisine": "Mexican",
+        "_geo": {
+            "lat": 34.0522,
+            "lng": -118.2437
+        },
+        "rating": 4.1
+    },
+    {
+        "id": 10,
+        "name": "Curry Corner",
+        "cuisine": "Indian",
+        "_geo": {
+            "lat": 51.5074,
+            "lng": -0.1278
+        },
+        "rating": 4.9
+    },
+    {
+        "id": 11,
+        "name": "Pizza Place",
+        "cuisine": "Italian",
+        "_geo": {
+            "lat": 40.7128,
+            "lng": -74.0060
+        },
+        "rating": 4.0
+    },
+    {
+        "id": 12,
+        "name": "Seafood Shack",
+        "cuisine": "Seafood",
+        "_geo": {
+            "lat": 37.7749,
+            "lng": -122.4194
+        },
+        "rating": 4.5
+    },
+    {
+        "id": 13,
+        "name": "Café au Lait",
+        "cuisine": "Coffee Shop",
+        "_geo": {
+            "lat": 48.8566,
+            "lng": 2.3522
+        },
+        "rating": 4.7
+    },
+    {
+        "id": 14,
+        "name": "Thai Terrace",
+        "cuisine": "Thai",
+        "_geo": {
+            "lat": 51.5074,
+            "lng": -0.1278
+        },
+        "rating": 4.3
+    },
+    {
+        "id": 15,
+        "name": "Smokehouse Grill",
+        "cuisine": "Barbecue",
+        "_geo": {
+            "lat": 34.0522,
+            "lng": -118.2437
+        },
+        "rating": 4.2
+    },
+    {
+        "id": 16,
+        "name": "La Patisserie",
+        "cuisine": "Bakery",
+        "_geo": {
+            "lat": 40.7128,
+            "lng": -74.0060
+        },
+        "rating": 4.8
+    },
+    {
+        "id": 17,
+        "name": "Sizzler House",
+        "cuisine": "Steakhouse",
+        "_geo": {
+            "lat": 37.7749,
+            "lng": -122.4194
+        },
+        "rating": 4.4
+    },
+    {
+        "id": 18,
+        "name": "Mikes Kitchen",
+        "cuisine": "Steakhouse",
+        "_geo": {
+            "lat": 37.7749,
+            "lng": -122.4194
+        },
+        "rating": 3.6
+    },
+    {
+        "id": 19,
+        "name": "Fishaways",
+        "cuisine": "Seafood",
+        "_geo": {
+            "lat": 37.7749,
+            "lng": -122.4194
+        },
+        "rating": 4.1
+    },
+    {
+        "id": 20,
+        "name": "Mochacos",
+        "cuisine": "Mexican",
+        "_geo": {
+            "lat": 37.7749,
+            "lng": -122.4194
+        },
+        "rating": 4
+    }
+]

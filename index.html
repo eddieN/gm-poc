@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+
+</title>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@meilisearch/instant-meilisearch/templates/basic_search.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="searchbox" focus></div>
+        <div id="hits"></div>
+    </div>
+</body>
+<script
+    src="https://cdn.jsdelivr.net/npm/@meilisearch/instant-meilisearch/dist/instant-meilisearch.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
+<script>
+    const search = instantsearch({
+        indexName: "restaurants",
+        searchClient: instantMeiliSearch(
+            "http://localhost:7700"
+        )
+    });
+    search.addWidgets([
+        instantsearch.widgets.searchBox({
+            container: "#searchbox",
+            sortBy: ["rating:desc"]
+        }),
+        instantsearch.widgets.configure({ hitsPerPage: 8 }),
+        instantsearch.widgets.hits({
+            container: "#hits",
+            templates: {
+                item: `
+            <div>
+            <div class="hit-name">
+                  {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+            </div>
+            <div class="hit-rating">
+                Rating: {{#helpers.highlight}}{ "attribute": "rating" }{{/helpers.highlight}}/5
+            </div>
+            <div class="hit-cuisine">
+                {{#helpers.highlight}}{ "attribute": "cuisine" }{{/helpers.highlight}}
+            </div>
+            </div>
+          `
+            }
+        })
+    ]);
+    search.start();
+</script>
+
+</html>

@@ -1,0 +1,19 @@
+{
+    "hits": [
+        {
+            "id": 20,
+            "name": "Mochacos",
+            "cuisine": "Mexican",
+            "_geo": {
+                "lat": 37.7749,
+                "lng": -122.4194
+            },
+            "rating": 4
+        }
+    ],
+    "query": "Mexican",
+    "processingTimeMs": 0,
+    "limit": 20,
+    "offset": 0,
+    "estimatedTotalHits": 1
+}
